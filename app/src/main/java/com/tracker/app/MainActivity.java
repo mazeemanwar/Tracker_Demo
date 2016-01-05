@@ -42,7 +42,7 @@ public class MainActivity extends Activity {
 
             @Override
             public void onClick(View arg0) {
-
+// on button click start the tracker screen.
                 Intent intent = new Intent(MainActivity.this,
                         TrackJourneyActivity.class);
                 startActivity(intent);
